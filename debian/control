@@ -1,0 +1,15 @@
+Source: flashpack
+Section: utils
+Priority: optional
+Maintainer: user14923929 <user14923929@users.noreply.github.com>
+Build-Depends: debhelper-compat (= 13), cmake, qt6-base-dev
+Standards-Version: 4.6.2
+Homepage: https://github.com/user14923929/flashpack
+Rules-Requires-Root: no
+
+Package: flashpack
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, adb | android-tools-adb, fastboot | android-tools-fastboot
+Description: Cross-platform GUI for adb and fastboot
+ FlashPack is a Qt6 front end for the official adb and fastboot tools.
+ Flash partitions, read bootloader variables and reboot between modes.

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=FlashPack
+GenericName=Android Flashing Tool
+Comment=Cross-platform GUI for adb and fastboot
+Exec=flashpack
+Icon=org.user14923929.flashpack
+Terminal=false
+Categories=Development;Utility;
+Keywords=android;adb;fastboot;flash;bootloader;
